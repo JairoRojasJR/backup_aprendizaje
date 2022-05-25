@@ -1,0 +1,66 @@
+body, h2, p, input, div {
+	padding: 0;
+	margin: 0;
+}
+
+.publicaciones {
+	padding: 20px;
+}
+
+.publicacion h2 {
+	display: inline-block;
+	padding: 10px;
+	border-bottom: 3px solid #75b;
+}
+
+.publicacion p {
+	padding: 10px;
+	border-left: 3px solid #75b;
+}
+
+.comentarios {
+	background: #75b;
+	display: flex;
+}
+
+.comentarios .comentario {
+	flex-grow: 1;
+	color: #fff;
+}
+
+.comentarios .comentario, .comentarios .send-comentario {
+	padding: 5px;
+	background: transparent;
+	border: none;
+	outline: none;
+}
+
+.comentarios .comentario::placeholder {
+	color: #cbd;
+}
+
+.send-comentario {
+	cursor: pointer;
+}
+
+.publicacion{
+	opacity: 0;
+	animation: aparecer 1s forwards .5s;
+}
+
+#nomore {
+	text-align: center;
+	background: #bbb;
+	border-radius: 10px;
+	margin: 5px;
+	color: #428;
+}
+
+@keyframes aparecer {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}

@@ -1,0 +1,59 @@
+* {
+	font-family: baskerville;
+}
+body {
+	background-color: #52f;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.flex-item {
+	flex-grow: 1;
+	margin: 20px;
+	max-width: 300px;
+	border: 2px solid #fff;
+	padding: 0 20px;
+}
+
+.flex-item:hover {
+	border-color: #5f5;
+	box-shadow: 0px 0px 33px #595;
+}
+
+.flex-item:focus {
+	border-color: #5f5;
+	box-shadow: 0px 0px 33px #595;
+}
+
+.llave-img {
+	width: 170px;
+	padding: 2px;
+	border: 2px solid #000;
+}
+
+h2, h3, p {
+	font-size: 18px;
+	margin: 0;
+}
+
+p b {
+	color: #5f5;
+}
+
+form {
+	width: 100%;
+	text-align: center;
+}
+
+input {
+	padding: 5px 15px;
+	background-color: #595;
+	font-size: 15px;
+	border: none;
+	font-family: sans-serif;
+	color: #fff;
+}

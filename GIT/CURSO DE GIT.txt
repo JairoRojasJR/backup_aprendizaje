@@ -1,0 +1,40 @@
+==================== CURSO DE GIT ====================
+
+------------------- PRINCIPALES COMANDOS DE CONFIGURACIÓN -------------------
+* git init => (Inicia un repositorio de git);
+* git config --global user.name
+* git config --global user.email
+* git config --global core.editor "'C:\Program Files\Sublime Text\sublime_text.exe' -w" => (En el caso de sublimetext para windows);
+* git config --global -e
+* git config --global core.autocrlf true => (Tiene que ver con los caracteres de salto de linea, en el caso de windows se usa true, en mac/linux input);
+
+------------------- COMANDOS GENERALES  Y PRINCIPALES -------------------
+* ls => (Muestra una lista de todos los archivos y carpetas que se encuentran en el directorio en el que estamos);
+* ls -a => (Muestra un lista de todos los archivos y documentos incluyendo los  que estan ocultos);
+* pwd => (Muestra la ruta del directorio actual);
+* cd directorio/ => (Cambia de directorio);
+* cd .. (Retrocede un directorio);
+* rm ejemplo.txt => (Elimina un archivo o directorio);
+* mv ejemplo.txt ejemplo_rename.txt => (Sirve para cambia el nombre de un archivo, OJO para guardar los cambios en la fase de status hay que add con el nombre anterior y el nuevo);
+* cat => (Sirve para ver el contenido de un archivo);
+
+* git status => (Comprueba el estado de los archivos que se encuentran en el directorio);
+* git add ejemplo.txt => (Agrega un archivo al estatus para el commit);
+* git commit -m "Ejemplo Version 1" => (Crea un commit (una especie de captura) de los archivos que estan agregados en la fase de estatus, con la -m indicamos el mensaje);
+
+* git restore --staged ejemplo.txt => (Sirve para deshacer el add en la fase de status por la eliminacion o modificacion de un archivo por el comando rm);
+* git restore ejemplo.txt => (Sirve para recuperar un archivo eliminado por el comando rm);
+* git mv ejemplo.txt ejemplo_rename.txt => (Sirve para cambiar el nombre de un archivo, guardonde automaticamente los cambios en el estatus);
+* git status -s => (Muestra del status solo lo necesario);
+* git diff => (Muestra la diferencia entre un archivo en el estatus y uno modificado antes de ser añadido al estatus);
+* git diff --staged => (Muestra todos los cambios realizados en el status antes del commit);
+* git log => (Muestra la información de todos los commit realizados en el repositorio);
+* git log --oneline => (Muesta de los commit en una linea, unicamente un identifacador y el mensaje)
+* git branch => (Sirve para ver la rama sobre la que estas trabajando);
+* git checkout -b "ejemploMsgCommit" => (Sirve para crear una rama sobre la que se traera los commit de la rama principal y donde se podrá crear nuevos commit para después llevar los cambios a la rama principal);
+* git checkout nameRama => (Sirve para cambiar de rama);
+* git merge nameRama => (Sire para traer los cambios de una rama a la rama principal);
+
+------------------- SUBIDA DEL PROYECTO A GITHUB -------------------
+git remote add origin https://github.com/JairoRojasJR/probando-github.git
+git push origin main

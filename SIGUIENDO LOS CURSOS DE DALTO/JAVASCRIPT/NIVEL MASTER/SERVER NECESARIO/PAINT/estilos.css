@@ -1,0 +1,39 @@
+body,div,h2,input {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #ededed;
+}
+
+h2 {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 32px;
+}
+
+.paint-zone {
+	background: #fff;
+	width: fit-content;
+	margin: auto;
+	margin-top: 50px;
+}
+
+canvas {
+	border: 1px solid #000;
+}
+
+.options {
+	background: #000;
+	display: flex;
+}
+
+#color, #lw {
+	margin: 5px;
+}
+
+#lw {
+	flex-grow: 1;
+}

@@ -1,0 +1,34 @@
+body {
+	background-color: #52f;
+	color: #fff;
+}
+
+/*********** CAPITULO 7 ***********/
+/*________________________________________ (Scroll)*/
+/*body {
+	width: 120%;
+}
+
+p {
+	width: 120%;
+}*/
+/*________________________________________ (Scroll)*/
+
+/*********** CAPITULO 8 ***********/
+/*________________________________________ (Event Bubbling vs Event Capturing)*/
+/*.contenedor-1 {
+	padding: 50px 80px;
+	background-color: red;
+}
+
+.contenedor-2 {
+	padding: 30px 60px;
+	background-color: blue;
+}*/
+
+/*========== EVENTOS DE TECLADO ==========*/
+/*________________________________________ ()*/
+/*input {
+	padding: 10px;
+	border: 3px solid #ab9;
+}*/

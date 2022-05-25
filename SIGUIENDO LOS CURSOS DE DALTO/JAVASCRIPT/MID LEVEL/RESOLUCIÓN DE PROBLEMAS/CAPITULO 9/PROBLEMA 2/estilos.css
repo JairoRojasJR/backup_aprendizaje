@@ -1,0 +1,22 @@
+* {
+	font-family: baskerville;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-rows: 50px;
+	grid-template-columns: repeat(4, minmax(min-content, max-content));
+	grid-auto-rows: 50px;
+}
+
+.grid-container .grid-item {
+	border: 3px solid #5da;
+	padding: 8px;
+	margin: 3px;
+}
+
+.btn-confirmar {
+	padding: 5px;
+	background: #5da;
+	margin: 10px;
+}

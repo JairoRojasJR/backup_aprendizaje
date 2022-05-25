@@ -1,0 +1,159 @@
+ .titulo-h2 {
+ 	color: red;
+ }
+
+ #element-for-modify {
+ 	color: blue;
+ }
+
+  #element-for-modify-2 {
+ 	color: yellow;
+ }
+
+ [rancio="sii"]{
+ 	color: purple;
+ }
+
+ h2 p {
+ 	color: green;
+ }
+
+ h2 b {
+ 	color: orange;
+ }
+
+ .h2-class b {
+ 	color: red;
+ }
+
+ .h2-class-2 b {
+ 	color: blue;
+ 
+ }
+ .h2-class-2 b span{
+ 	color: red;
+ }
+
+
+ h2:hover {
+ 	color: black;
+ }
+
+
+ .h2-class b:hover {
+ 	color: black;
+ }
+
+ .contact-form__input:first-child {
+ 	color: purple;
+ }
+
+ .contact-form__input--rica {
+ 	color: pink;
+ }
+
+.contact-form2 {
+    font-size: 25px;
+ }
+ 
+ .contact-form2__h2 {
+    font-size: 1em;
+ }
+ 
+ * {
+    padding: 0px;
+    margin: 0px;
+    font-family: ;
+ }
+.contact-form3 {
+    font-size: 25px;
+    background-color: #000;
+    width: 50vw;
+    height: 10vh;
+ }
+
+ .contact-form4 {
+    font-size: 25px;
+ }
+ 
+ .contact-form4__h2 {
+    font-size: 2em;
+    color: purple;
+    font-family: Stick No Bills, Baskerville;
+ }
+
+ .contact-form5 {
+    display:  inline;
+ }
+
+ .contact-form5__h2 {
+    display:  inline;
+ }
+
+ .contact-form6 {
+    display: inline;
+    font-size: 2em;
+    color: red;
+    font-family: Stick No Bills, Baskerville;
+}
+
+ .contact-form6__h2 {
+    display: inline;
+    font-size: 2em;
+    color: red;
+    font-family: Stick No Bills, Baskerville;
+}
+
+.padding-titulo__h3 {
+    background-color: #a22;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.padding-titulo__h3--2 {
+    background-color: purple;
+    display: inline-block;
+    padding: 10px 30px 50px 100px;
+}
+
+.padding-titulo__h3--3 {
+    background-color: blue;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.caja-formato__h3 {
+    background-color: #a22;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px 10px;
+    border-radius: 2em;
+    border: 3px solid blue;
+    box-shadow: 30px 20px 10px 10px #000;
+    text-shadow: 2px 2px 7px #fff, 2px 2px 7px #fff, 2px 2px 7px #fff;
+    transform: rotate(-45deg);
+
+}
+
+.caja1 {
+   width: 200px;
+   height: 200px;
+   background: purple;
+   margin: auto;
+}
+
+.caja2 {
+   width: 200px;
+   height: 200px;
+   background: pink;
+   margin: auto;
+}
+
+
